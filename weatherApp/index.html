@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="config.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>weatherApp</title>
+    <link rel="shortcut icon" href="./Assets/naviIcon.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter your City" spellcheck="false">
+            <button id="searchButton">
+                <img id="searchImage" src="./Assets/search.png" alt="search icon">
+            </button>
+        </div> 
+        <div class="weather">
+            <img src="./Assets/rain.png" class="weatherIcon" alt="weather icon">
+            <h1 class="temp">22.8°C / 73.1°F</h1>
+            <h2 class="weatherDescription">Rainy</h2>
+            <h2 class="city">Sylhet, Bangladesh</h2>
+            <div class="detail">
+                <div class="col">
+                    <img src="./Assets/humidity.png" alt="humidity icon">
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </img> 
+                </div>
+                <div class="col">
+                    <img src="./Assets/wind.png" alt="wind icon">
+                    <p class="wind">15km/h</p>
+                    <p>Wind</p>
+                </div>
+            </div>
+            <h2 class="localTime">2024-06-01 12:00</h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
