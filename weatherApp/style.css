@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #bab269aa;
+    color: #300a0a;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    height: 30rem;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    color: #fff;
+    background: linear-gradient(135deg, #d57fbd, #5aec74c3);
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+.search {
+    width: 70%;
+    background-color: #ebfffc;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.search input {
+    background-color: #ebfffc;
+    border: 0;
+    outline: 0;
+    width: 85%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.search input:focus {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.search button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8efef;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 50px;
+    width: 50px;
+}
+.search button:hover {
+    background-color: #00d1b2;
+}
+#searchImage {
+    width: 25px;
+    height: 25px;
+}
+.weather {
+    text-align: center;
+    margin-top: 5px;
+    height:30%;
+    width: 80%;
+}
+.weatherIcon {
+    width: 80px;
+    height: 80px;
+    margin-top: 5px;
+}
+.temp {
+    font-size: 32px;
+    margin: 10px 0;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.detail {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+}
+.col {
+    text-align: center;
+    padding: 10px;
+}
+.col img {
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px;
+}
+.humidity, .wind {
+    font-size: 18px;
+    margin: 5px 5px;
+}
+p {
+    margin: 5px 5px;
+    font-size: 20px;
+}
+.localTime {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
